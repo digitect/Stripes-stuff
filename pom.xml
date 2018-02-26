@@ -59,6 +59,8 @@
         </developer>
     </developers>
 
+  <!-- 
+
     <issueManagement>
         <system>GitHub</system>
         <url>https://github.com/StripesFramework/stripes-stuff/issues</url>
@@ -68,8 +70,22 @@
         <developerConnection>scm:git:git@github.com:StripesFramework/stripes-stuff.git</developerConnection>
         <url>https://github.com/StripesFramework/stripes-stuff</url>
       <tag>HEAD</tag>
-  </scm>
+    </scm>
+  -->
 
+	<distributionManagement>
+	  <repository>
+		  <id>central</id>
+		  <name>tools.digitect.nl-releases</name>
+		  <url>http://tools.digitect.nl/artifactory/libs-release-local</url>
+	  </repository>
+	  <snapshotRepository>
+		  <id>snapshots</id>
+		  <name>tools.digitect.nl-snapshots</name>
+		  <url>http://tools.digitect.nl/artifactory/libs-snapshot-local</url>
+	  </snapshotRepository>
+	</distributionManagement>
+	
     <build>
         <pluginManagement>
             <plugins>
@@ -279,7 +295,7 @@
         <dependency>
             <groupId>net.sourceforge.stripes</groupId>
             <artifactId>stripes</artifactId>
-            <version>1.5.8</version>
+            <version>1.6.0</version>
             <optional>true</optional>
         </dependency>
     </dependencies>
@@ -318,7 +334,7 @@
     <properties>
         <project.build.resourceEncoding>ISO-8859-1</project.build.resourceEncoding>
         <maven.build.timestamp.format>yyyy</maven.build.timestamp.format>
-        <maven.compiler.target>1.5</maven.compiler.target>
-        <maven.compiler.source>1.5</maven.compiler.source>
+        <maven.compiler.target>1.7</maven.compiler.target>
+        <maven.compiler.source>1.7</maven.compiler.source>
     </properties>
 </project>
