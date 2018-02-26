@@ -65,13 +65,13 @@
         <system>GitHub</system>
         <url>https://github.com/StripesFramework/stripes-stuff/issues</url>
     </issueManagement>
+ -->
     <scm>
-        <connection>scm:git:git://github.com/StripesFramework/stripes-stuff.git</connection>
-        <developerConnection>scm:git:git@github.com:StripesFramework/stripes-stuff.git</developerConnection>
-        <url>https://github.com/StripesFramework/stripes-stuff</url>
+        <connection>scm:git:https://github.com/digitect/stripes-stuff.git</connection>
+        <developerConnection>scm:git:https://github.com/digitect/stripes-stuff.git</developerConnection>
+        <url>https://github.com/digitect/stripes-stuff</url>
       <tag>HEAD</tag>
     </scm>
-  -->
 
 	<distributionManagement>
 	  <repository>
